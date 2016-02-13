@@ -1,3 +1,9 @@
+---
+layout: post
+title: test
+permalink: /language-translation-test/
+---
+
 <!DOCTYPE html>
 <html>
   <head>
