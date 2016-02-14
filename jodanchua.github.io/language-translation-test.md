@@ -1,4 +1,8 @@
-
+---
+layout: post
+title: Bluemix Basics
+permalink: /language-translation/
+---
 
 <!DOCTYPE html>
 <html>
