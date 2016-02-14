@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bluemix Basics
-permalink: /language-translation/
+permalink: /test/
 ---
 
 ##Application Development Tutorial
