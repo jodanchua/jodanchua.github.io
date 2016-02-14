@@ -1,8 +1,4 @@
----
-layout: post
-title: Bluemix Basics
-permalink: /language-translation/
----
+
 
 <!DOCTYPE html>
 <html>
@@ -26,8 +22,8 @@ permalink: /language-translation/
 <p>You will download a copy of a sample application(Translator.war) that you will deploy in your Bluemix account.</p>
 
 <ol>
-<li><p>Create the directory <code>translator</code> in the root directory.  Create a subdirectory <code>myfirstapp</code> in <code>bluemixtemp</code>.</p></li>
-<li><p>Download <a href="https://github.com/jodanchua/Language_Translation_test/raw/master/Translator_Gradle.war">Translator.war</a> and save it in the <code>translator</code> directory.</p></li>
+<li><p>Create the directory <code>translator</code> in the root directory.  </p></li>
+<li><p>Download <a href="https://github.com/jodanchua/Language-Translation/raw/master/Translator.war">Translator.war</a> and save it in the <code>translator</code> directory.</p></li>
 </ol>
 
 <p><br></p>
@@ -59,8 +55,9 @@ Go back to the browser tab containing your Bluemix account. In the menu, click D
 <p><li>
 Click the widget of your application to see its overview.
 </li></p>
+</ol>
 
-<h4 id="add-a-postgresql-service-and-bind-it-to-the-sample-application">Add a Language Translation Service and Bind it to the Sample Application</h4>
+<h4 id="add-a-Language-Translation-Service-and-bind-it-to-the-sample-application">Add a Language Translation Service and Bind it to the Sample Application</h4>
 
 <ol>
 <li><p>On the left pane, click the <code>Overview</code> link. </p></li>
@@ -85,8 +82,7 @@ Click the widget of your application to see its overview.
 After running <code> gradle assemble</code> in the cmd, the dependencies are already resolved, therefore allowing the functions and methods of the Language Translation API to work.  
 </p>
 
-<li><p>
-The following imports are also required in the <code>LanguageTranslationServlet.java</code> in order for the functions of the Language Translation API to be used.
+<li><p> If you extract the contents of <code>Translator.war</code> you will see the subdirectory <code>\src\main\java\Servlet</code>.  This contains several <code>.java</code> files including <code>LanguageTranslationServlet.java</code>. The <code>LanguageTranslationServlet.java</code> requires the following imports  in order for the functions of the Language Translation API to work.
 
 <div class="highlight"><pre><code class="language-text" data-lang="text">import com.ibm.watson.developer_cloud.language_translation.v2.LanguageTranslation;
 
@@ -145,7 +141,25 @@ To further enumerate, the output above shows the translated word <code> "Hola"</
 </li>
 
 <li><p>
+The output generated above was possible because of the function in the <code>LanguageTranslationServlet.java</code>:
 
+<div class="highlight"><pre><code class="language-text" data-lang="text">TranslationResult translated = languageTranslation.translate(request.getParameter("inputText"), "en", "es");
+</code></pre></div>
+
+The <code> languageTranslation.translate</code> function above translates the input text of the user from the source language, English <code>"en"</code> to the target language,  Spanish or Español <code>"es"</code> .
+
+<blockquote>
+<p><strong>IMPORTANT:</strong>
+The sample application that you are using can only translate from <code>English</code> to <code>Spanish</code>. Other languages are also available but it would require you to change the parameter/s of the function. <p><br></p>Other Languages include: Afrikaans: "af",Arabic : "ar", Bashkir: "ba".  
+<p><br></p>The function <code>List <IdentifiableLanguages> langs = service.getIdentifiableLanguages();
+System.out.println(langs);</code> could be addeded to the source code of  <code>LanguageTranslationServlet.java</code> to list all identifiable languages of the Language Translation service.
+</p>
+</blockquote>  
+</p></li>
+
+<li><p>
+You can now try any <code>English</code> word to be translated to <code> Spanish.</code> 
+</p></li>
 </ol>
 <h4 id="delete-the-sample-application-and-postgresql-service">Delete the Sample Application and Language Translation Service</h4>
 
