@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Bluemix Basics
+title: Language Translation
 permalink: /language-translation/
 ---
 
