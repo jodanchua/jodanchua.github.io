@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Language Translation
-permalink: /language-translation-final/
+permalink: /language-translation/
 ---
-
 <!DOCTYPE html>
 <html>
   <head>
