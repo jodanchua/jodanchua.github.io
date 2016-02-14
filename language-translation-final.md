@@ -3,7 +3,6 @@ layout: post
 title: Language Translation
 permalink: /language-translation/
 ---
-<!DOCTYPE html>
 <html>
   <head>
     <title>Language Translation – Jordan Chua – web developer</title>
