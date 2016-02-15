@@ -1,3 +1,8 @@
+---
+layout: post
+title: Language Translation
+permalink: /language-translation/
+---
 
 <html>
   <head>
