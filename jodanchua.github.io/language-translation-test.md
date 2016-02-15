@@ -1,17 +1,16 @@
----
-layout: post
-title: Language Translation
-permalink: /language-translation-test/
----
+
 <html>
   <head>
     <title>Language Translation – Jordan Chua – web developer</title>
   </head>
+<p>Access my language-translation folder <a href="https://github.com/jodanchua/Language-Translation/tree/master/Translator">here.</a> </p>
+<p>Download PPT <a href="https://github.com/jodanchua/Language-Translation/tree/master/Translator">here.</a> </p>
 
   <h1>Language Translation</h1>
 
   <div class="entry">
     <h2 id="application-development-tutorial">Application Development Tutorial</h2>
+
 
 
 <p>Language Translation by Watsons can translate text from one language to another for specific domains</p>
