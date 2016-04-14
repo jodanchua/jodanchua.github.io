@@ -66,7 +66,7 @@ This would allow visually handicapped voters to vote independently without the n
 
 <ol>
 <li><p>Build the sample application.
-<div class="highlight"><pre><code class="language-text" data-lang="text">&gt; gradle build
+<div class="highlight"><pre><code class="language-text" data-lang="text">&gt; gradle assemble
 </code></pre></div>
 </p></li>
 <li><p>Login to your Bluemix account using the <code>cf</code> tool.</p>
@@ -94,13 +94,13 @@ Click the widget of your application to see its overview.
 </li></p>
 </ol>
 
-<h4 id="add-a-Language-Translation-Service-and-bind-it-to-the-sample-application">Add Object Storage, Text to Speech, and Redis by Compose Services and Bind it to the  Application</h4>
+<h4 id="add-a-Language-Translation-Service-and-bind-it-to-the-sample-application">Add Object Storage, Text to Speech, and Redis Services and Bind it to the  Application</h4>
 
 <ol>
 <li><p>On the left pane, click the <code>Overview</code> link. </p></li>
 <li><p>Click the <code>ADD A SERVICE OR API</code> link.  You will be redirected to the <code>Catalog</code> page. </p></li>
 
-<li><p>Look for the <code>Object Storage</code> , <code>Text to Speech</code>, and <code>Redis by Compose </code>service and bind each of the services to the <code>VCAP </code> application.
+<li><p>Look for the <code>Object Storage</code> , <code>Text to Speech</code>, and <code>Redis Experimental</code>service and bind each of the services to the <code>VCAP </code> application.
 
 <blockquote>
 <p><strong>IMPORTANT:</strong>
