@@ -17,7 +17,20 @@
 <p>
 <b>VCAP</b>, also known as “Voting for Visually Handicapped”, is designed to allow blind voters to vote independently without the need of a helper or buddy while voting. With this application, they will simply choose their selected candidate by listening to the audio of the currently selected candidate. </p>
 
+<p><b>Target Users</b> : COMELEC and Visually Handicapped Voters </p>
 
+<p>
+<b>Purpose for COMELEC use:</b>
+
+This would give the COMELEC a more efficient database as votes from the visually handicapped would directly be forwarded to the database, thus recording the number of votes each candidate has acquired so far.
+</p>
+
+<p>
+<b>Purpose for Visually Handicapped Voters:</b>
+
+This would allow visually handicapped voters to vote independently without the need of a “buddy” or proxy to assist them in voting, as they would just have to listen to the audio of the candidate’s name they are currently selecting. 
+
+</p>
 
 <h4 id="copy-sample-application">Copy the project from Github</h4>
 
