@@ -1,4 +1,8 @@
-
+---
+layout: post
+title: VCAP
+permalink: /vcap/
+---
 <html>
   <head>
     <title>VCAP - Voting for Visually Handicapped</title>
