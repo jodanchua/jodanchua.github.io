@@ -1,8 +1,4 @@
----
-layout: post
-title: VCAP
-permalink: /vcap/
----
+
 <html>
   <head>
     <title>VCAP - Voting for Visually Handicapped</title>
@@ -94,13 +90,13 @@ Click the widget of your application to see its overview.
 </li></p>
 </ol>
 
-<h4 id="add-a-Language-Translation-Service-and-bind-it-to-the-sample-application">Add Object Storage, Text to Speech, and Redis  Services and Bind it to the  Application</h4>
+<h4 id="add-a-Language-Translation-Service-and-bind-it-to-the-sample-application">Add Text to Speech, and Redis  Services and Bind it to the  Application</h4>
 
 <ol>
 <li><p>On the left pane, click the <code>Overview</code> link. </p></li>
 <li><p>Click the <code>ADD A SERVICE OR API</code> link.  You will be redirected to the <code>Catalog</code> page. </p></li>
 
-<li><p>Look for the <code>Object Storage</code> , <code>Text to Speech</code>, and <code>Redis Experimental</code>service and bind each of the services to the <code>VCAP </code> application.
+<li><p>Look for the <code>Text to Speech</code>, and <code>Redis Experimental</code>service and bind each of the services to the <code>VCAP </code> application.
 
 <blockquote>
 <p><strong>IMPORTANT:</strong>
