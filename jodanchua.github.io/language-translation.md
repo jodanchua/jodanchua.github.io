@@ -1,8 +1,4 @@
----
-layout: post
-title: VCAP
-permalink: /vcap/
----
+
 <html>
   <head>
     <title>VCAP - Voting for Visually Handicapped</title>
@@ -104,8 +100,7 @@ Click the widget of your application to see its overview.
 
 <blockquote>
 <p><strong>IMPORTANT:</strong>
-For Object Storage service, change the <code>Selected Plan</code> dropdown  from <code>Standard</code> to <code>Free</code> <p><br></p>  
-</blockquote>  
+For <code>Redis Experimental</code> service, it is located under <code>Bluemix Labs Catalog</code> at the end of the <code>Catalog</code> page.</blockquote>  
 </p></li>
 
 <li><p>When asked to restage your application, click the <code>RESTAGE</code> button.  Wait for your application to restage.</p></li>
