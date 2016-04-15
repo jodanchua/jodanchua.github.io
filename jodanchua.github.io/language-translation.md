@@ -1,14 +1,10 @@
----
-layout: post
-title: VCAP
-permalink: /vcap/
----
+
 <html>
   <head>
     <title>VCAP - Voting for Visually Handicapped</title>
   </head>
 <p>Access our VCAP folder <a href="https://github.com/int-argc/VCAP.git">here.</a> </p>
-<p>Download PPT <a href=" ">here.</a> </p>
+<p>Download PPT <a href="https://github.com/int-argc/VCAP/raw/master/VCAP.pptx">here.</a> </p>
 
   <h1><center><b>VCAP <br>Voting for Visually Handicapped </b></center></h1>
 
@@ -76,10 +72,10 @@ This would allow visually handicapped voters to vote independently without the n
 
 <p><br></p></li>
 <li><p>Upload the  application to your Bluemix account.</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&gt; cf push VCAP-&lt;your_name&gt; -m 256M -p vcap.war
+<div class="highlight"><pre><code class="language-text" data-lang="text">&gt; cf push VCAP-&lt;your_name&gt; -m 512M -p vcap.war
 </code></pre></div>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&gt; cf push vcap-jords -m 256M -p vcap.war
+<div class="highlight"><pre><code class="language-text" data-lang="text">&gt; cf push vcap-jords -m 512M -p vcap.war
 </code></pre></div>
 
 <p><li>
