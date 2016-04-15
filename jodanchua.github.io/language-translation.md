@@ -1,3 +1,8 @@
+---
+layout: post
+title: VCAP
+permalink: /vcap/
+---
 
 <html>
   <head>
